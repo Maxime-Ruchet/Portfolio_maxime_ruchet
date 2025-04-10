@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberConnect - Sensibilisation à la Cybersécurité</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="main_nav">
+          <div class="container">
+            <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="title">
+          <div><a href="index.html"><img src="/public/img/Blue Geometric Minimalist Finance Logo.svg" style="width: 50%;" alt="logo"></a></div>
+          <div class="smallsep heading"></div>
+          <h1 class="heading">CyberConnect</h1>
+          <h2 class="heading">Sensibilisation à la Cybersécurité</h2>
+          <a class="smoothscroll" href="#about">
+          <div class="mouse">
+            <div class="wheel"></div>
+          </div>
+          </a> 
+        </div>
+        <a class="smoothscroll" href="#about">
+        <div class="scroll-down"></div>
+        </a> 
+    </header>
+
+    <!-- Contenu principal -->
+    <section id="main-content" class="container gallery-container" style="background-color: black; color: white; padding: 40px 20px;">
+      <h2 class="text-center">Présentation du projet</h2>
+      <p class="text-center">CyberConnect est une initiative visant à sensibiliser entreprises et universités à la cybersécurité à travers un site web, des ateliers interactifs et des ressources numériques adaptées.</p>
+
+      <div style="margin-top: 40px;">
+        <h3>Objectifs</h3>
+        <ul>
+          <li>Informer sur les risques liés à la cybersécurité</li>
+          <li>Fournir des outils et ressources pour une meilleure protection des données</li>
+          <li>Promouvoir des pratiques sûres à travers des formations et des guides</li>
+        </ul>
+      </div>
+
+      <div style="margin-top: 40px;">
+        <h3>Actions réalisées</h3>
+        <ul>
+          <li>Création d'une plateforme en ligne dédiée à la cybersécurité</li>
+          <li>Organisation d'ateliers de formation pour les entreprises et les étudiants</li>
+          <li>Développement de contenus multimédia (vidéos, infographies, articles)</li>
+          <li>Lancement d'une campagne de sensibilisation sur les réseaux sociaux</li>
+        </ul>
+      </div>
+
+      <div style="margin-top: 40px;">
+        <h3>Visuels</h3>
+        <div class="row" style="display: flex; flex-wrap: wrap; ">
+          <div class="col-md-4" style="flex: 1;">
+            <img src="/public/img/image_cyber_1.png" alt="Visuel CyberConnect" style="width: 100%; border-radius: 8px;">
+          </div>
+          <div class="col-md-4" style="flex: 1;">
+            <img src="/public/img/image_cyber_2.png" alt="Visuel CyberConnect" style="width: 100%; border-radius: 8px;">
+          </div>
+          <div class="col-md-4" style="flex: 1;">
+            <img src="/public/img/image_cyber_3.png" alt="Visuel CyberConnect" style="width: 100%; border-radius: 8px;">
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top: 40px;">
+        <h3>Résultats obtenus</h3>
+        <p>La plateforme a permis de former plus de 2000 étudiants et professionnels. Les retours des utilisateurs ont montré une meilleure prise de conscience des enjeux liés à la cybersécurité. L'initiative a également renforcé la présence de la cybersécurité dans les programmes éducatifs des universités partenaires.</p>
+      </div>
+    </section>
+
+    <div style=" text-align: center;">
+      <a href="https://cyber-connect.netlify.app/" target="_blank" class="btn btn-info btn-lg" style="margin-top: 20px;">
+        Visiter le site CyberConnect
+      </a>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="nine columns">
+          <p>Créé par Maxime Ruchet</p>
+        </div>
+        <div class="three columns">
+          <a href="https://www.linkedin.com/in/maxime-ruchet/" target="_blank">
+            <span class="typcn typcn-social-linkedin-circular socialIcons"></span>
+          </a>
+          <a href="mailto:ruchet.maxime@gmail.com">
+            <span class="typcn typcn-mail socialIcons"></span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        h3 {
+            color: #00bcd4;
+        }
+
+
+        .zoomed {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.1); /* Zoom léger */
+  z-index: 9999;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.overlay {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Fond assombri plus léger */
+  z-index: 9998;
+}
+
+
+    </style>
+</body>
+</html>
+
+
+<script>
+  $(document).ready(function () {
+    $('img').click(function () {
+      $('.zoomed').remove();
+      $('.overlay').remove();
+
+      var zoomedImg = $(this).clone().addClass('zoomed');
+      var overlay = $('<div class="overlay"></div>');
+
+      $('body').append(overlay).append(zoomedImg);
+
+      overlay.add(zoomedImg).click(function () {
+        zoomedImg.remove();
+        overlay.remove();
+      });
+    });
+  });
+</script>
+
